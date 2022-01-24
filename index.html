@@ -5,12 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        .logo{ 
+            margin: 0 auto;
+            height: 110px;
+            width: 110px;
+        }
+
+        #sea{
+            width: 100px;
+            height:100px;
+            border: solid 4px black;
+            border-radius: 30px;
+            margin: 0 auto;
+        }
+
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+            background-color: rgba(217, 196, 141, 0.8);
+            color: black;
+            font-family: "lucida handwriting";
+            border-radius: 15px;
+            
+        }
+
+        li{
+            float: left;
+            font-weight: 700;
+        }
+
+        li a{
+            display: block;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            
+        }
+
+        nav{
+            display: block;
+            width: 548px;
+            margin: 0 auto;
+            border: solid 4px;
+            border-radius: 20px;
+        }
+
+        li a:hover{
+            background-color: rgb(187, 84, 70);
+        }
+         
+     </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+   <div class="logo">
+       <a href="./index.html"><img id="sea" src="/images/logo.png"></a>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="./recipes/gingerbread.html">GingerBread Cookies</a></li>
+            <li><a href="./recipes/pumpkin-pie.html">Pumpkin Pie</a></li>
+            <li><a href="./recipes/sugar_cookies.html">Sugar Cookies</a></li>
 
-    <button><a href="../recipes/sugar_cookies.html">Sugar Cookies</a></button>
-    <button><a href="../recipes/gingerbread.html">Gingerbread Cookies</a></button>
-    <button><a href="../recipes/pumpkin-pie.html">Pumpkin Pie</a></button>
+        </ul>
+    </nav>
+
+  
 </body>
 </html>
